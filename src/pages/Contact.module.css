@@ -1,0 +1,22 @@
+.main {
+  position: fixed;
+  top: 4rem;
+  height: calc(100vh - 4rem);
+  width: 100%;
+  background-color: black;
+  color: #e5e5e5;
+  display: flex;
+}
+.sideImg {
+  height: calc(100vh - 4rem);
+  width: 40%;
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  height: calc(100vh - 4rem);
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

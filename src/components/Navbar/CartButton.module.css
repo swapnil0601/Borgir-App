@@ -1,0 +1,43 @@
+.cart {
+  background-color: var(--text);
+  color: #000814;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  justify-content: space-around;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+.text {
+  margin: 0 5px;
+}
+.icon {
+  font-size: 1.3rem;
+  transform: translateY(0.2rem);
+}
+.badge {
+  color: var(--text);
+  background-color: rgb(76, 76, 76);
+  padding: 0 0.4rem;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.cart:hover,
+.cart:active {
+  background-color: rgb(221, 145, 3);
+  color: var(--text);
+  transition: all 0.3s ease-in-out;
+}
+
+.cart:hover .badge,
+.cart:active .badge {
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(140, 99, 4);
+}

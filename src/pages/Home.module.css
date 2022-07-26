@@ -1,0 +1,89 @@
+.home {
+  position: fixed;
+  top: 4rem;
+  left: 0;
+  right: 0;
+  max-width: 100%;
+  height: calc(100vh - 4rem);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+}
+h1 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+.content {
+  position: relative;
+  top: -5rem;
+  left: 4rem;
+  color: aliceblue;
+  width: 30%;
+  height: 50vh;
+  line-height: 2.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 8rem;
+}
+.content p {
+  font-size: 1.5rem;
+}
+.img-container {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 40%;
+  height: 60vh;
+}
+
+.btn {
+  margin-top: 2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 20px;
+  transition: all 0.2s ease-in-out;
+}
+.btn:hover {
+  transition: all 0.2s ease-in-out;
+}
+.contact {
+  background-color: #fca311;
+  color: #ffffff;
+}
+.contact:hover {
+  background-color: #e5e5e5;
+  color: #000000;
+}
+.contact:active,
+.contact:focus {
+  background-color: #e5e5e5;
+  color: #000000;
+}
+.btns {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.order {
+  background-color: transparent;
+  border: #fca311 solid 2px;
+  color: #fca311;
+}
+.order:hover {
+  background-color: #e5e5e5;
+  border-color: #e5e5e5;
+  color: #000000;
+}
+.order:active,
+.order:focus {
+  background-color: #e5e5e5;
+  border-color: #e5e5e5;
+  color: #000000;
+}

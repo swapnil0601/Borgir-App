@@ -1,0 +1,16 @@
+.input {
+  display: flex;
+  align-items: center;
+}
+.input label {
+  font-weight: 700;
+  margin-right: 10px;
+}
+.input input {
+  padding-left: 10px;
+  width: 3rem;
+}
+.input input[type="number"]::-webkit-inner-spin-button,
+.input input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
+}

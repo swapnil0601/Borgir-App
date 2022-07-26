@@ -1,0 +1,49 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.input {
+  font-family: inherit;
+  width: 90%;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+.invalid {
+  border: 2px red solid;
+}
+.error {
+  color: red;
+  margin-left: 0.5rem;
+}
+.actions {
+  align-self: flex-end;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid var(--darkest);
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #d78605;
+  border-color: #d78605;
+  color: white;
+}
+
+.actions .cancel {
+  color: var(--darkest);
+}
+
+.actions .order {
+  background-color: var(--darkest);
+  color: white;
+}
